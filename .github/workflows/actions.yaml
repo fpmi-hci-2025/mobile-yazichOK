@@ -19,7 +19,7 @@ jobs:
           xcodebuild -project YazichOK/YazichOK.xcodeproj \
                      -scheme YazichOK \
                      -sdk iphonesimulator \
-                     -destination 'platform=iOS Simulator' \
+                     -destination 'platform=iOS Simulator,name=iPhone 16' \
                      clean test -only-testing:YazichOKTests
 
       - name: Build and run UI tests
@@ -27,5 +27,6 @@ jobs:
           xcodebuild -project YazichOK/YazichOK.xcodeproj \
                      -scheme YazichOK \
                      -sdk iphonesimulator \
-                     -destination 'platform=iOS Simulator' \
+                     -destination 'platform=iOS Simulator,name=iPhone 16' \
                      clean test -only-testing:YazichOKUITests
+
