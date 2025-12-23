@@ -1,23 +1,35 @@
-Project Name: в данном блоке указать название проекта.
+# YazichOK (mobile-yazichOK)
 
-Description: Краткое описание проекта и его функциональности в 3-5 предложениях.
+## Description
+YazichOK is a mobile application for learning English, designed to help users improve their grammar, vocabulary, speaking, listening, and reading skills. The app features interactive modules including flashcards, article analysis, listening practice, grammar quizzes, and speaking assessments. With a user-friendly UI and engaging content, YazichOK aims to make English learning fun and effective for all skill levels.
 
-Installation: Последовательность шагов, как установить приложение локально.
+## Installation
+To run YazichOK on your local machine (macOS):
 
-Sub modules: Ссылки на репозитории для веб-приложения, мобильного приложения с их кратким описанием.
+1. Clone this repository:
+   ```bash
+   git clone <repo-url>
+   cd mobile-yazichOK
+   ```
+2. Open the project:
+   - Open the `YazichOK/EnglishApp.xcodeproj` file in Xcode.
+3. Install dependencies if prompted (SwiftPM is used for package management).
+4. Select your simulator or device and press Run (▶️) in Xcode.
 
-Usage: Рекомендации как использовать приложение после установки. Может содержать скриншоты.
+## Submodules
+- **Mobile App (Swift/SwiftUI, this repo):** All mobile features, located in `YazichOK/EnglishApp/`.
 
-Contributing: 
-- Team Lead: Романовец Алексей.
+## Usage
+- Sign up or sign in to your account
+- Start learning by exploring modules for flashcards, grammar, listening, and speaking
+- Track your progress in the Progress section
+- Use the Profile tab to manage your settings
 
-- UX/UI-Designer: Романовец Алексей и Соловьёв Даниил.
 
-- Mobile Developer: Соловьёв Даниил.
-
-- Web Developer: Романовец Алексей.
-
-- Backend Developer: Барановский Максим и Сергиенко Лев.
-
-- DevOps & QA Engineer: Сергиенко Лев и Барановский Максим.
-
+## Contributing
+- **Team Lead:** Alexey Romanovets
+- **UX/UI Designer:** Alexey Romanovets, Daniil Solovyev
+- **Mobile Developer:** Daniil Solovyev
+- **Web Developer:** Alexey Romanovets
+- **Backend Developer:** Maksim Baranovsky, Lev Sergienko
+- **DevOps & QA Engineer:** Lev Sergienko, Maksim Baranovsky
